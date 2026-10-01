@@ -1,0 +1,9 @@
+Agent Canary System build completed locally, 2026-10-01
+Tests: 40 passed (pytest, 0.34 seconds).
+Verified implementation commit: fdc6825b28457a60ecb273b8bbafe41ed117f89e
+Installed acs demo: fixtures -> run -> report completed in 0.668 seconds.
+Ground truth: 200 total, 40 canary, 160 held back, 12 distinct regressions (8 success, 4 latency), all planted cases found, zero false positives.
+
+Built a CPU-only, dependency-free Python CLI with fixtures, run, report, plan and gate commands; pure deterministic canary cohort selection and evaluation of supplied baseline/candidate observations; exact decimal thresholds; strict schema validation; named parsing and file errors; atomic report writes; synthetic provenance banners; selected observations and input hashes for auditability; labelled 200-record fixtures and a hand-written five-record example; adversarial pytest coverage; and complete quickstart, input reference, architecture, honesty policy and KOML lessons. This local tool emits deployment plans and gates recorded results; an operator or external runner executes deployments. No production effectiveness or savings are claimed. The real-use verdict remains pending the required two-week evidence window. No publishing or external network calls were performed.
+
+This report is committed separately after the verified implementation commit so the recorded hash identifies the complete tested implementation without a self-referential commit hash.
