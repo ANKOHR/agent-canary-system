@@ -1,0 +1,25 @@
+{
+  "canary_workflows": 40,
+  "derivation": "First 40 IDs selected. Multiples of 5: 8 failures. IDs 1,11,21,31: 4 latency regressions. Sets disjoint; union 12.",
+  "gate": "HOLD",
+  "held_back_workflows": 160,
+  "latency_regressions": 4,
+  "regression_ids": [
+    "wf-001",
+    "wf-005",
+    "wf-010",
+    "wf-011",
+    "wf-015",
+    "wf-020",
+    "wf-021",
+    "wf-025",
+    "wf-030",
+    "wf-031",
+    "wf-035",
+    "wf-040"
+  ],
+  "regression_workflows": 12,
+  "success_regressions": 8,
+  "synthetic": true,
+  "total_workflows": 200
+}

@@ -1,0 +1,116 @@
+You are an autonomous coding agent. Your task: implement the Agent Canary System project in the repo at C:\Users\henry\Documents\agent-canary-system, exactly as described in the build brief below, then stop.
+
+Brief:
+# Agent Canary System build brief, 30 Sep 2026
+
+## Objective
+Build Agent Canary System: deploy changes to a fraction of workflows first.
+
+Agent Canary System is a Python CLI (`acs`) that deploy changes to a fraction of workflows first.. It is built under the project factory protocol: hypothesis, measurable outcome, acceptance criteria, adversarial tests, real or realistic data, evidence, failure modes, one evidence-based improvement, demo, docs, and an explicit verdict (expand / integrate / commercialise / maintain / kill).
+
+## Why this project matters
+Reliable agent infrastructure is the difference between a demo and a system someone pays to keep running. Every hour spent here pays back across every agent Henry operates.
+
+## Hypothesis
+If a deterministic, tested CLI implements the following: deploy changes to a fraction of workflows first. Then the intended user gets a tool they can trust for this job, because every behavior is pinned by tests against planted ground truth, all outputs are computed from explicit inputs (never estimated or invented), and failure modes are named instead of hidden.
+
+## User
+Henry building and operating agent systems, and future clients who need agents that do not fall over.
+
+## Measurable outcome
+- On a synthetic fixture of 200 records with planted ground truth, `acs report` completes in under 5 seconds and every reported figure matches the hand-computed ground truth exactly: all planted cases found, zero false positives, and any totals reconcile exactly where money or counts are involved.
+- The end-to-end demo runs without tracebacks on the fixture set.
+
+## Deliverable
+- Repo at `C:\Users\henry\Documents\agent-canary-system`, clean git history, clean `git status`.
+- Public GitHub repo `ANKOHR/agent-canary-system` (publishing completed builds publicly is authorised; handled by a separate verification step, NOT by Codex).
+- Python CLI `acs` with subcommands (see Components).
+- pytest suite, all green.
+
+## Components
+1. **Core engine** (`agent_canary_system/core.py`): implements the domain logic for: deploy changes to a fraction of workflows first. Pure functions where possible; no I/O in core logic so it is trivially testable.
+2. **CLI** (`agent_canary_system/cli.py`): `acs fixtures --out <dir>` (generate the labelled synthetic fixture set), `acs run --input <dir>` (execute the core workflow on the fixture or on real input), `acs report --format md|json` (render results with the provenance banner), plus at least two domain subcommands designed from the objective above, each with `--help` text and examples.
+3. **Fixture generator** (`agent_canary_system/fixtures.py`): builds the 200-record synthetic set with planted ground truth and a hand-computed expectations file. Every fixture file carries a synthetic label (header comment and a `synthetic: true` field where the format allows).
+4. **Report rendering** (`agent_canary_system/report.py`): markdown and JSON reports carrying a banner stating data provenance: which inputs were real (Henry's own data, entered by him) and which are synthetic fixtures.
+5. **Honesty helpers**: any figure that is illustrative, hypothetical, or unmeasured is labelled as such in code, CLI output, and reports. Nothing the tool cannot measure is presented as measured.
+
+Module layout:
+```
+agent_canary_system/
+  __init__.py
+  cli.py
+  core.py
+  fixtures.py
+  report.py
+tests/
+  test_core.py
+  test_cli.py
+  test_fixtures.py
+  test_report.py
+```
+
+## Smallest real version
+`acs fixtures --out demo && acs run --input demo && acs report --format md`: the core workflow running on a tiny hand-written 5-record input, with the provenance banner on the report. Everything else extends from there.
+
+## HONESTY BOUNDARY (hard requirement)
+This tool computes from its inputs; it does not discover, predict, or estimate beyond them. Any figure that is hypothetical, illustrative, or not measured is labelled as such in every surface (code, CLI output, reports, README). Synthetic fixtures are labelled synthetic inside the files and in every report banner. Time saved or money saved is reported only when measured against a baseline; otherwise the tool refuses or labels the figure hypothetical. If a reader could mistake an illustrative figure for a measured result, the build has failed this requirement.
+
+## Constraints
+- CPU ONLY. Another job may be using the GPU on this machine. Do not run GPU workloads. No torch, tensorflow, or GPU packages at all. No language-model calls anywhere. No external network calls.
+- Deterministic: the same input twice gives byte-identical output (fixed seeds where randomness is needed; document the seed).
+- No em dashes anywhere: code, comments, docstrings, docs, README, CLI output.
+- Must not be a static mockup: the CLI must genuinely parse inputs, compute, and render.
+- Local files only (YAML, JSON, JSONL, CSV, Markdown); no database server.
+
+## Real-or-realistic data plan
+- Synthetic fixture set (200 records) with planted ground truth, labelled synthetic; the measurable outcome is demonstrated on this fixture.
+- Realistic path: Henry's own real data for this domain, entered by him by hand into the input format. Trial results are recorded, not shipped.
+
+## Tests (pytest, all must pass)
+- test_fixtures_labelled_synthetic
+- test_fixture_ground_truth_matches_hand_computed
+- test_run_completes_on_fixture
+- test_report_matches_ground_truth_exact
+- test_report_zero_false_positives
+- test_empty_input_renders_without_traceback
+- test_malformed_input_named_error
+- test_determinism_byte_identical
+- test_cli_smoke_all_subcommands
+- test_report_carries_provenance_banner
+- test_hypothetical_figures_labelled
+- test_rejects_adversarial_values
+- test_handles_unicode_and_long_inputs
+- test_no_em_dashes_in_outputs
+
+## Adversarial tests
+- Empty input directory: the report renders with zeros, no tracebacks.
+- Malformed input file (bad JSON/CSV/YAML): named error naming the file and line, not a crash.
+- Adversarial values (negative amounts, future dates, extreme strings, duplicate ids): handled per the documented rules, never silently dropped or misreported.
+- A fixture with the ground truth deliberately corrupted: the report's figures change accordingly (proving they are computed, not hardcoded).
+- Unicode, very long strings, and Windows paths in inputs: no crashes, no mojibake.
+
+## Failure modes
+- Malformed input: named parse error naming the file and line.
+- Missing input: named error with usage hint, nonzero exit.
+- Fixture/input mismatch (schema drift): named schema error listing the offending field.
+- Report write failure (bad output path): named error, no partial files left behind.
+
+## One evidence-based improvement hook
+After two weeks of real use, measure the single metric that matters most for this tool (accuracy of its core output against a hand-checked sample, or time it saves per run). If the measured error rate exceeds 10 percent, or the tool is not actually used, record the finding and either fix the top failure cause or kill the project with the reason recorded.
+
+## Demo
+`acs fixtures --out demo && acs run --input demo && acs report --format md`: under 5 seconds on the fixture, a full report with the provenance banner and every figure traceable to the fixture.
+
+## Docs
+README: quickstart, input format reference, subcommand catalogue with examples, architecture as a text diagram, honesty boundary section, fixture labelling policy, and the evidence-based improvement hook with the metric to measure.
+
+## Verdict (expand/integrate/commercialise/maintain/kill)
+Verdict recorded after the improvement hook's two-week evidence window, with the reason written down: expand if it earns daily use or revenue; integrate if it overlaps heavily with a sibling project; commercialise if a buyer would pay for it as-is; maintain as portfolio evidence otherwise; kill if it is never used or cannot meet its acceptance criteria, because an unused tool is decoration.
+
+## Lessons for KOML
+Record in the repo (LESSONS.md or a README section): what this build taught about the domain, which assumption was validated or broken by evidence, and one operating rule for future builds of this kind.
+
+## Done criteria
+- All tests pass; end-to-end demo renders the report with the banner in under 5 seconds on the fixture set.
+- Clean git tree, sensible commits on branch main, README complete.
+- Report in BUILD-DONE.txt: test count, local commit hash, one-paragraph summary of what was built. Do not publish; publishing is handled separately.

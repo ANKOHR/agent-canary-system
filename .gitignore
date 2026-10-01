@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.acs/
+demo/
+agent-canary-system-codex.log

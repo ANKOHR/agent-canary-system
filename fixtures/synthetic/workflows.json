@@ -1,0 +1,1809 @@
+{
+  "as_of": "2026-09-30",
+  "fraction": 0.2,
+  "latency_tolerance": 0.2,
+  "max_regressions": 0,
+  "synthetic": true,
+  "workflows": [
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-001",
+      "name": "Synthetic workflow 1",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-002",
+      "name": "Synthetic workflow 2",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-003",
+      "name": "Synthetic workflow 3",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-004",
+      "name": "Synthetic workflow 4",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-005",
+      "name": "Synthetic workflow 5",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-006",
+      "name": "Synthetic workflow 6",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-007",
+      "name": "Synthetic workflow 7",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-008",
+      "name": "Synthetic workflow 8",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-009",
+      "name": "Synthetic workflow 9",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-010",
+      "name": "Synthetic workflow 10",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-011",
+      "name": "Synthetic workflow 11",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-012",
+      "name": "Synthetic workflow 12",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-013",
+      "name": "Synthetic workflow 13",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-014",
+      "name": "Synthetic workflow 14",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-015",
+      "name": "Synthetic workflow 15",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-016",
+      "name": "Synthetic workflow 16",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-017",
+      "name": "Synthetic workflow 17",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-018",
+      "name": "Synthetic workflow 18",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-019",
+      "name": "Synthetic workflow 19",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-020",
+      "name": "Synthetic workflow 20",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-021",
+      "name": "Synthetic workflow 21",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-022",
+      "name": "Synthetic workflow 22",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-023",
+      "name": "Synthetic workflow 23",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-024",
+      "name": "Synthetic workflow 24",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-025",
+      "name": "Synthetic workflow 25",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-026",
+      "name": "Synthetic workflow 26",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-027",
+      "name": "Synthetic workflow 27",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-028",
+      "name": "Synthetic workflow 28",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-029",
+      "name": "Synthetic workflow 29",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-030",
+      "name": "Synthetic workflow 30",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-031",
+      "name": "Synthetic workflow 31",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-032",
+      "name": "Synthetic workflow 32",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-033",
+      "name": "Synthetic workflow 33",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-034",
+      "name": "Synthetic workflow 34",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-035",
+      "name": "Synthetic workflow 35",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-036",
+      "name": "Synthetic workflow 36",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-037",
+      "name": "Synthetic workflow 37",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-038",
+      "name": "Synthetic workflow 38",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-039",
+      "name": "Synthetic workflow 39",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-040",
+      "name": "Synthetic workflow 40",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-041",
+      "name": "Synthetic workflow 41",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-042",
+      "name": "Synthetic workflow 42",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-043",
+      "name": "Synthetic workflow 43",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-044",
+      "name": "Synthetic workflow 44",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-045",
+      "name": "Synthetic workflow 45",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-046",
+      "name": "Synthetic workflow 46",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-047",
+      "name": "Synthetic workflow 47",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-048",
+      "name": "Synthetic workflow 48",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-049",
+      "name": "Synthetic workflow 49",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-050",
+      "name": "Synthetic workflow 50",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-051",
+      "name": "Synthetic workflow 51",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-052",
+      "name": "Synthetic workflow 52",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-053",
+      "name": "Synthetic workflow 53",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-054",
+      "name": "Synthetic workflow 54",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-055",
+      "name": "Synthetic workflow 55",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-056",
+      "name": "Synthetic workflow 56",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-057",
+      "name": "Synthetic workflow 57",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-058",
+      "name": "Synthetic workflow 58",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-059",
+      "name": "Synthetic workflow 59",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-060",
+      "name": "Synthetic workflow 60",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-061",
+      "name": "Synthetic workflow 61",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-062",
+      "name": "Synthetic workflow 62",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-063",
+      "name": "Synthetic workflow 63",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-064",
+      "name": "Synthetic workflow 64",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-065",
+      "name": "Synthetic workflow 65",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-066",
+      "name": "Synthetic workflow 66",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-067",
+      "name": "Synthetic workflow 67",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-068",
+      "name": "Synthetic workflow 68",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-069",
+      "name": "Synthetic workflow 69",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-070",
+      "name": "Synthetic workflow 70",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-071",
+      "name": "Synthetic workflow 71",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-072",
+      "name": "Synthetic workflow 72",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-073",
+      "name": "Synthetic workflow 73",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-074",
+      "name": "Synthetic workflow 74",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-075",
+      "name": "Synthetic workflow 75",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-076",
+      "name": "Synthetic workflow 76",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-077",
+      "name": "Synthetic workflow 77",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-078",
+      "name": "Synthetic workflow 78",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-079",
+      "name": "Synthetic workflow 79",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-080",
+      "name": "Synthetic workflow 80",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-081",
+      "name": "Synthetic workflow 81",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-082",
+      "name": "Synthetic workflow 82",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-083",
+      "name": "Synthetic workflow 83",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-084",
+      "name": "Synthetic workflow 84",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-085",
+      "name": "Synthetic workflow 85",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-086",
+      "name": "Synthetic workflow 86",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-087",
+      "name": "Synthetic workflow 87",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-088",
+      "name": "Synthetic workflow 88",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-089",
+      "name": "Synthetic workflow 89",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-090",
+      "name": "Synthetic workflow 90",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-091",
+      "name": "Synthetic workflow 91",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-092",
+      "name": "Synthetic workflow 92",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-093",
+      "name": "Synthetic workflow 93",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-094",
+      "name": "Synthetic workflow 94",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-095",
+      "name": "Synthetic workflow 95",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-096",
+      "name": "Synthetic workflow 96",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-097",
+      "name": "Synthetic workflow 97",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-098",
+      "name": "Synthetic workflow 98",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-099",
+      "name": "Synthetic workflow 99",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-100",
+      "name": "Synthetic workflow 100",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-101",
+      "name": "Synthetic workflow 101",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-102",
+      "name": "Synthetic workflow 102",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-103",
+      "name": "Synthetic workflow 103",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-104",
+      "name": "Synthetic workflow 104",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-105",
+      "name": "Synthetic workflow 105",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-106",
+      "name": "Synthetic workflow 106",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-107",
+      "name": "Synthetic workflow 107",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-108",
+      "name": "Synthetic workflow 108",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-109",
+      "name": "Synthetic workflow 109",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-110",
+      "name": "Synthetic workflow 110",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-111",
+      "name": "Synthetic workflow 111",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-112",
+      "name": "Synthetic workflow 112",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-113",
+      "name": "Synthetic workflow 113",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-114",
+      "name": "Synthetic workflow 114",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-115",
+      "name": "Synthetic workflow 115",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-116",
+      "name": "Synthetic workflow 116",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-117",
+      "name": "Synthetic workflow 117",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-118",
+      "name": "Synthetic workflow 118",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-119",
+      "name": "Synthetic workflow 119",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-120",
+      "name": "Synthetic workflow 120",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-121",
+      "name": "Synthetic workflow 121",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-122",
+      "name": "Synthetic workflow 122",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-123",
+      "name": "Synthetic workflow 123",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-124",
+      "name": "Synthetic workflow 124",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-125",
+      "name": "Synthetic workflow 125",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-126",
+      "name": "Synthetic workflow 126",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-127",
+      "name": "Synthetic workflow 127",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-128",
+      "name": "Synthetic workflow 128",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-129",
+      "name": "Synthetic workflow 129",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-130",
+      "name": "Synthetic workflow 130",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-131",
+      "name": "Synthetic workflow 131",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-132",
+      "name": "Synthetic workflow 132",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-133",
+      "name": "Synthetic workflow 133",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-134",
+      "name": "Synthetic workflow 134",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-135",
+      "name": "Synthetic workflow 135",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-136",
+      "name": "Synthetic workflow 136",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-137",
+      "name": "Synthetic workflow 137",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-138",
+      "name": "Synthetic workflow 138",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-139",
+      "name": "Synthetic workflow 139",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-140",
+      "name": "Synthetic workflow 140",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-141",
+      "name": "Synthetic workflow 141",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-142",
+      "name": "Synthetic workflow 142",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-143",
+      "name": "Synthetic workflow 143",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-144",
+      "name": "Synthetic workflow 144",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-145",
+      "name": "Synthetic workflow 145",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-146",
+      "name": "Synthetic workflow 146",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-147",
+      "name": "Synthetic workflow 147",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-148",
+      "name": "Synthetic workflow 148",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-149",
+      "name": "Synthetic workflow 149",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-150",
+      "name": "Synthetic workflow 150",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-151",
+      "name": "Synthetic workflow 151",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-152",
+      "name": "Synthetic workflow 152",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-153",
+      "name": "Synthetic workflow 153",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-154",
+      "name": "Synthetic workflow 154",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-155",
+      "name": "Synthetic workflow 155",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-156",
+      "name": "Synthetic workflow 156",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-157",
+      "name": "Synthetic workflow 157",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-158",
+      "name": "Synthetic workflow 158",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-159",
+      "name": "Synthetic workflow 159",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-160",
+      "name": "Synthetic workflow 160",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-161",
+      "name": "Synthetic workflow 161",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-162",
+      "name": "Synthetic workflow 162",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-163",
+      "name": "Synthetic workflow 163",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-164",
+      "name": "Synthetic workflow 164",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-165",
+      "name": "Synthetic workflow 165",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-166",
+      "name": "Synthetic workflow 166",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-167",
+      "name": "Synthetic workflow 167",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-168",
+      "name": "Synthetic workflow 168",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-169",
+      "name": "Synthetic workflow 169",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-170",
+      "name": "Synthetic workflow 170",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-171",
+      "name": "Synthetic workflow 171",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-172",
+      "name": "Synthetic workflow 172",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-173",
+      "name": "Synthetic workflow 173",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-174",
+      "name": "Synthetic workflow 174",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-175",
+      "name": "Synthetic workflow 175",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-176",
+      "name": "Synthetic workflow 176",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-177",
+      "name": "Synthetic workflow 177",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-178",
+      "name": "Synthetic workflow 178",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-179",
+      "name": "Synthetic workflow 179",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-180",
+      "name": "Synthetic workflow 180",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-181",
+      "name": "Synthetic workflow 181",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-182",
+      "name": "Synthetic workflow 182",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-183",
+      "name": "Synthetic workflow 183",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-184",
+      "name": "Synthetic workflow 184",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-185",
+      "name": "Synthetic workflow 185",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-186",
+      "name": "Synthetic workflow 186",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-187",
+      "name": "Synthetic workflow 187",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-188",
+      "name": "Synthetic workflow 188",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-189",
+      "name": "Synthetic workflow 189",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-190",
+      "name": "Synthetic workflow 190",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-191",
+      "name": "Synthetic workflow 191",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-192",
+      "name": "Synthetic workflow 192",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-193",
+      "name": "Synthetic workflow 193",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-194",
+      "name": "Synthetic workflow 194",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-195",
+      "name": "Synthetic workflow 195",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-196",
+      "name": "Synthetic workflow 196",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-197",
+      "name": "Synthetic workflow 197",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-198",
+      "name": "Synthetic workflow 198",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-199",
+      "name": "Synthetic workflow 199",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-200",
+      "name": "Synthetic workflow 200",
+      "recorded_on": "2026-09-30"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-09-30",
+  "fraction": 0.2,
+  "latency_tolerance": 0.2,
+  "max_regressions": 0,
+  "synthetic": true,
+  "workflows": [
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 150,
+      "candidate_ok": true,
+      "id": "wf-001",
+      "name": "Synthetic intake",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-002",
+      "name": "Synthetic routing",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-003",
+      "name": "Synthetic review",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": true,
+      "id": "wf-004",
+      "name": "Synthetic archive",
+      "recorded_on": "2026-09-30"
+    },
+    {
+      "baseline_ms": 100,
+      "baseline_ok": true,
+      "candidate_ms": 100,
+      "candidate_ok": false,
+      "id": "wf-005",
+      "name": "Synthetic delivery",
+      "recorded_on": "2026-09-30"
+    }
+  ]
+}
